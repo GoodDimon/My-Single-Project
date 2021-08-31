@@ -396,7 +396,6 @@ body {
   .team__item:nth-child(n+3) {
     display: none;
   }
-
 }
 
 @media (max-width: 780px) {
@@ -555,7 +554,7 @@ body {
     display: none;
   }
 
-  .social__img { 
+  .social__img {
     height: 45px;
   }
 
@@ -592,7 +591,7 @@ body {
   .social__img {
     height: 24px;
   }
-   
+
   .social__icon {
     left: 145px;
     top: 6px;
