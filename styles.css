@@ -136,7 +136,7 @@ body {
 .button:hover {
   background-color: #e0036f;
   color: #fff;
- }
+}
 
 .buy__button_two {
   color: #585858;
@@ -390,7 +390,6 @@ body {
     left: 185px;
     top: 10px;
   }
-
 }
 
 @media (max-width: 970px) {
@@ -613,7 +612,7 @@ body {
 
   .social__icon {
     left: 111px;
-   }
+  }
 
 }
 
@@ -647,7 +646,7 @@ body {
     line-height: 18px;
     margin-bottom: 109px;
   }
-  
+
   .content__button {
     padding: 12px 104px;
   }
@@ -736,7 +735,7 @@ body {
   }
 
   .footer__inner {
-    padding: 0 16px; 
+    padding: 0 16px;
   }
 
   .address__icon {
@@ -753,9 +752,10 @@ body {
     font-size: 8px;
     padding-left: 6px;
   }
+
   .social__img {
     height: 19px;
-}
+  }
 
   .social__icon {
     left: 85px;
@@ -779,4 +779,4 @@ body {
   .menu__btn > span::after {
     height: 4px;
   }
-}  
+}
