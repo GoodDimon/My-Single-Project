@@ -216,7 +216,7 @@ body {
   font-size: 30px;
   line-height: 35px;
   color: #585858;
-  margin:0 auto 79px;
+  margin: 0 auto 79px;
 }
 
 .team__face {
@@ -285,7 +285,7 @@ body {
   top: 8px;
 }
 
-@media (max-width: 1370px){
+@media (max-width: 1370px) {
   .conteiner {
     width: 87%;
   }
@@ -310,7 +310,7 @@ body {
     font-size: 34px;
   }
 
-  .content__subtitle{
+  .content__subtitle {
     font-size: 16px;
   }
 
@@ -400,7 +400,7 @@ body {
 
 }
 
-@media (max-width: 780px){
+@media (max-width: 780px) {
   .intro {
     height: 510px;
   }
@@ -414,7 +414,7 @@ body {
     display: none;
   }
 
-   .hamburger-menu {
+  .hamburger-menu {
     display: block;
   }
 
@@ -529,7 +529,8 @@ body {
     align-items: center;
   }
 
-  .application__img, .application__text {
+  .application__img,
+  .application__text {
     margin: 0;
   }
 
@@ -549,7 +550,7 @@ body {
 
   .team__face {
     justify-content: center;
-  } 
+  }
 
   .team__item:nth-child(n+2) {
     display: none;
@@ -574,7 +575,6 @@ body {
 
   .scroll {
     display: block;
-
   }
 
   .footer {
@@ -589,15 +589,16 @@ body {
   .social__item {
     font-size: 12px;
   }
-   .social__img {
+
+  .social__img {
     height: 24px;
-   }
+  }
    
-   .social__icon {
+  .social__icon {
     left: 145px;
     top: 6px;
     height: 13px;
-   }
+  }
 }
 
 @media (max-width: 405px) {
@@ -646,6 +647,7 @@ body {
     line-height: 18px;
     margin-bottom: 109px;
   }
+  
   .content__button {
     padding: 12px 104px;
   }
