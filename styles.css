@@ -1,12 +1,12 @@
 * {
-	margin: 0;
+  margin: 0;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #fff;
   cursor: pointer;
 }
 
 body {
-	background-color: #E3EAFE;
+	background-color: #e3eafe;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -40,23 +40,23 @@ body {
   margin-bottom: 60px;
 }
 
-.menu{
+.menu {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
-.menu__item{
+.menu__item {
   margin-left: 62px;
   font-size: 18px;
   line-height: 22px;
   transition: opacity .5s;
-} 
+}
 
 .menu__item:hover {
 	opacity: 0.5;
 }
 
- .hamburger-menu {
+.hamburger-menu {
   display: none;
 }
 
@@ -73,7 +73,6 @@ body {
   line-height: 47px;
 }
 
-
 .content__subtitle {
   max-width: 285px;
   margin-bottom: 40px;
@@ -83,7 +82,7 @@ body {
 }
 
 .content__button {
-  background-color: #E0036F;
+  background-color: #e0036f;
   padding: 15px 67px;
   font-size: 20px;
   line-height: 23px;
@@ -91,8 +90,8 @@ body {
 }
 
 .content__button:hover {
-  color: #E0036F;
-  background-color: #FFFFFF;
+  color: #e0036f;
+  background-color: #fff;
 }
 
 .buy {
@@ -112,54 +111,54 @@ body {
   margin-bottom: 40px;
 }
 
- .buy__price {
-  color: #263B83;
+.buy__price {
+  color: #263b83;
   font-weight: 900;
   font-size: 30px;
   margin-bottom: 32px;
   padding-right: 11px;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  padding: 16px 0;
+  background-color: #ffda45;
+  color: #000;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  transition: background-color .3s, color .3s;
+}
+
+.button:hover {
+  background-color: #e0036f;
+  color: #fff;
  }
 
- .button {
-   display: block;
-   width: 200px;
-   padding: 16px 0;
-   background-color: #FFDA45;
-   color: #000000;
-   font-weight: 900;
-   font-size: 20px;
-   line-height: 23px;
-   margin-bottom: 20px;
-   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
-   transition: background-color .3s, color .3s;
- }
+.buy__button_two {
+  color: #585858;
+  padding-bottom: 9px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  border-bottom: 3px solid #ffda45;
+  opacity: .8;
+  margin-bottom: 55px;
+  transition: opacity .3s;
+}
 
- .button:hover {
-  background-color: #E0036F;
-  color: #FFFFFF;
- }
-
- .buy__button_two {
-    color: #585858;
-    padding-bottom: 9px;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    border-bottom: 3px solid #FFDA45;
-    opacity: .8;
-    margin-bottom: 55px;
-    transition: opacity .3s;
- }
-
- .buy__button_two:hover {
+.buy__button_two:hover {
   opacity: 1;
- }
+}
 
 .application {
   width: 100%;
   max-width: 1440px;
   height: 327px;
-  background-color: #405DBB;
+  background-color: #405dbb;
   margin-bottom: 89px;
 }
 
@@ -238,7 +237,7 @@ body {
   width: 100%;
   max-width: 1440px;
   height: 200px;
-  background-color: #0E1E71;
+  background-color: #0e1e71;
   padding-top: 48px;
 }
 
@@ -268,7 +267,7 @@ body {
 }
 
 .social__item {
-  background-color: #0E1E71;
+  background-color: #0e1e71;
   padding-left: 19px;
   font-size: 18px;
   line-height: 1.5;
